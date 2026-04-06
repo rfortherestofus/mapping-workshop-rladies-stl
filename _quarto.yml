@@ -15,9 +15,6 @@ format:
     slide-level: 4
     output-location: fragment
 
-revealjs-plugins:
-  - tldraw
-
 execute: 
   message: false
   warning: false

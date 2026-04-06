@@ -96,9 +96,3 @@ read_sf("data/portland_city_council_districts.geojson")
 ::: {.notes}
 https://gis-pdx.opendata.arcgis.com/datasets/PDX::portland-administrative-sextants/explore?location=45.544781%2C-122.667200%2C11.81
 :::
-
-### Learn More
-
-https://r-spatial.github.io/sf/articles/sf2.html
-
-https://r.geocompx.org/read-write.html

@@ -1,0 +1,16 @@
+---
+title: Welcome
+---
+
+# About Me
+
+# Mapping in R {.inverse}
+
+::: {.notes}
+- Fully-fledged GIS tool
+    - I'm only touching a few of the main topics
+    - I'm not really talking about geospatial analysis
+- Only touching on static maps but great tools for interactive maps as well
+    - leaflet
+    - mapgl
+:::

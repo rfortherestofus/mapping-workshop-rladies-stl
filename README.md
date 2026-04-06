@@ -60,15 +60,7 @@ How to create polished choropleth maps. Covers:
 - Adjusting legend size, position, and formatting
 - Adding titles and using `scales::percent_format()` for readable legend labels
 
-### 7. Making Dot and Bubble Maps with ggplot (`slides-dot-and-bubble-maps.qmd`)
-
-How to create dot and bubble maps to show point data. Covers:
-
-- **Dot maps**: plotting point geometries on top of polygon base layers
-- **Bubble maps**: scaling point size to a numeric variable with `aes(size = ...)` and `scale_size_continuous()`
-- Working with centroids (`st_centroid()`)
-
-### 8. Learn More (`slides-learn-more.qmd`)
+### 7. Learn More (`slides-learn-more.qmd`)
 
 A resources slide pointing to books and references for further learning:
 

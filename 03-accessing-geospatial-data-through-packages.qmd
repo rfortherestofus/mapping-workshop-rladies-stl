@@ -1,7 +1,7 @@
 ---
 title: Accessing Geospatial Data Through Packages
-# execute: 
-#   eval: false
+execute: 
+  eval: false
 ---
 
 ```{r}
@@ -43,7 +43,7 @@ library(rnaturalearth)
 
 ```{r}
 all_countries <-
-  ne_countries()
+  ne_countries(scale = "small")
 ```
 
 ---
@@ -138,11 +138,6 @@ geoboundaries(
 ::: {.notes}
 Can go down to 5 levels; see https://github.com/wmgeolab/rgeoboundaries/blob/master/R/geoboundaries.R#L57C1-L62C87
 :::
-
-
-#### Other Packages
-
-https://r.geocompx.org/read-write#geographic-data-packages
 
 ### US Data
 
@@ -262,9 +257,3 @@ median_household_income_sf |>
 - Use the {rnaturalearth} or {rgeoboundaries} package to download data for all countries in South America
 - Use the {mapview} package to make a map in order to ensure the data was downloaded correctly
 - If you are in the US (or work with US data), try out downloading data using {tidycensus}
-
-#### Learn More
-
-https://wiki.openstreetmap.org/wiki/Disputed_territories
-
-https://www.andrewheiss.com/blog/2025/02/13/natural-earth-crimea/

@@ -1,21 +1,8 @@
----
-title: Making Choropleth Maps with ggplot
-output-location: slide
----
-
-::: {.notes}
-Show https://www.nytimes.com/interactive/2025/02/13/upshot/nih-trump-funding-cuts.html
-:::
-
-```{r}
 library(tidyverse)
 library(tidycensus)
 library(janitor)
 library(tigris)
-```
 
-```{r}
-#| output: false
 speak_language_other_than_english <-
   get_acs(
     geography = "county",
@@ -26,25 +13,14 @@ speak_language_other_than_english <-
   clean_names() |>
   mutate(pct = estimate / summary_est) |>
   select(name, pct)
-```
 
-### Basic Map
-
-```{r}
-#| code-line-numbers: "5,6"
 speak_language_other_than_english |>
   shift_geometry() |>
   ggplot() +
   geom_sf(aes(fill = pct)) +
   theme_void() +
   scale_fill_viridis_c()
-```
 
-
-### Deal with Borders
-
-```{r}
-#| code-line-numbers: "6,7"
 speak_language_other_than_english |>
   shift_geometry() |>
   ggplot() +
@@ -57,18 +33,7 @@ speak_language_other_than_english |>
   scale_fill_viridis_c(limits = c(0, 1)) +
   scale_color_viridis_c(limits = c(0, 1)) +
   theme_void()
-```
 
-::: {.notes}
-Alternative approach: https://www.andrewheiss.com/blog/2025/02/19/ggplot-histogram-legend/#extract-interior-state-borders
-:::
-
-### Adjust Legend
-
-#### Adjust legend width and height
-
-```{r}
-#| code-line-numbers: "23,24"
 speak_language_other_than_english |>
   shift_geometry() |>
   ggplot() +
@@ -90,12 +55,7 @@ speak_language_other_than_english |>
     legend.key.width = unit(2, "cm"),
     legend.key.height = unit(0.5, "cm")
   )
-```
 
-#### Use `percent_format()`
-
-```{r}
-#| code-line-numbers: "14,18"
 library(scales)
 
 speak_language_other_than_english |>
@@ -135,12 +95,4 @@ speak_language_other_than_english |>
       )
     )
   )
-```
 
-### Your Turn {.your-turn}
-
-Improve the map you made in the last lesson on the number of refugees from each country in the world by:
-
-1. Using a different fill and color scale
-1. Improving the legend by adjusting its width and height
-1. Improving the legend by making nicely formatted values (`scales::comma_format()` is your friend)
