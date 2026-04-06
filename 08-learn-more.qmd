@@ -1,0 +1,21 @@
+---
+title: Learn More About Mapping in R
+---
+
+[![](assets/socviz-maps.png)](https://socviz.co/07-maps.html)
+
+---
+
+[![](assets/walker-census-r.png)](https://walker-data.com/census-r/)
+
+---
+
+[![](assets/rspatialdata.png)](https://rspatialdata.github.io/index.html)
+
+---
+
+[![](assets/paulamoraga-spatial.png)](https://www.paulamoraga.com/book-spatial/index.html)
+
+---
+
+[![](assets/geocompx.png)](https://r.geocompx.org/)

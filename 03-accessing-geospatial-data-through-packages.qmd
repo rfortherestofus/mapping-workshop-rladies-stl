@@ -1,0 +1,270 @@
+---
+title: Accessing Geospatial Data Through Packages
+# execute: 
+#   eval: false
+---
+
+```{r}
+#| echo: false
+library(tidycensus)
+
+options(tigris_use_cache = TRUE)
+```
+
+### Overview
+
+- Most of the time, I don't access raw geospatial data
+- Instead, I use packages to access the data
+
+### Global Data
+
+#### Packages
+
+- {rnaturalearth}
+- {rgeoboundaries}
+
+::: {.notes}
+Boundaries are political
+
+Talk about how each package handles disputed territories
+
+https://www.naturalearthdata.com/about/disputed-boundaries-policy/
+
+https://www.andrewheiss.com/blog/2025/02/13/natural-earth-crimea/#natural-earth-de-jure-points-of-view
+:::
+
+#### {rnaturalearth}
+
+---
+
+```{r}
+library(rnaturalearth)
+```
+
+```{r}
+all_countries <-
+  ne_countries()
+```
+
+---
+
+```{r}
+library(mapview)
+
+all_countries |>
+  mapview()
+```
+
+---
+
+```{r}
+africa <-
+  ne_countries(continent = "Africa")
+```
+
+```{r}
+africa |>
+  mapview()
+```
+
+---
+
+```{r}
+ukraine <-
+  ne_countries(country = "Ukraine")
+```
+
+```{r}
+ukraine |>
+  mapview()
+```
+
+#### {rgeoboundaries}
+
+::: {.notes}
+Show https://www.geoboundaries.org/
+
+https://github.com/wmgeolab/rgeoboundaries
+:::
+
+---
+
+```{r}
+library(rgeoboundaries)
+```
+
+```{r}
+all_countries_v2 <-
+  geoboundaries(adm_lvl = 0)
+```
+
+```{r}
+all_countries_v2 |>
+  mapview()
+```
+
+---
+
+```{r}
+ukraine_v2 <-
+  geoboundaries(country = "Ukraine")
+```
+
+```{r}
+ukraine_v2 |>
+  mapview()
+```
+
+---
+
+```{r}
+geoboundaries(
+  country = "Ukraine",
+  adm_lvl = 1
+) |>
+  mapview()
+```
+
+---
+
+```{r}
+geoboundaries(
+  country = "Ukraine",
+  adm_lvl = 2
+) |>
+  mapview()
+```
+
+::: {.notes}
+Can go down to 5 levels; see https://github.com/wmgeolab/rgeoboundaries/blob/master/R/geoboundaries.R#L57C1-L62C87
+:::
+
+
+#### Other Packages
+
+https://r.geocompx.org/read-write#geographic-data-packages
+
+### US Data
+
+- {tigris}
+- {tidycensus}
+
+#### {tigris}
+
+```{r}
+library(tigris)
+```
+
+```{r}
+us_states <-
+  states()
+```
+
+```{r}
+us_states
+```
+
+---
+
+```{r}
+us_states |>
+  mapview()
+```
+
+---
+
+```{r}
+oregon_counties <-
+  counties(state = "OR")
+```
+
+```{r}
+oregon_counties
+```
+
+---
+
+```{r}
+oregon_counties |>
+  mapview()
+```
+
+#### {tidycensus}
+
+- [Create an API key](https://api.census.gov/data/key_signup.html) 
+- Register API key
+
+. . .
+
+```{r}
+#| eval: false
+library(tidycensus)
+
+census_api_key("<insert your API key here>", install = TRUE)
+```
+
+```{r}
+#| echo: false
+library(tidycensus)
+```
+
+#### Identify Variables
+
+```{r}
+acs_variables <-
+  load_variables(
+    year = 2023,
+    dataset = "acs5",
+    cache = TRUE
+  )
+```
+
+---
+
+```{r}
+median_household_income <-
+  get_acs(
+    geography = "county",
+    state = "OR",
+    variable = "B19013_001"
+  )
+```
+
+```{r}
+median_household_income
+```
+
+---
+
+```{r}
+median_household_income_sf <-
+  get_acs(
+    geography = "county",
+    state = "OR",
+    variable = "B19013_001",
+    geometry = TRUE
+  )
+```
+
+```{r}
+median_household_income_sf
+```
+
+---
+
+```{r}
+median_household_income_sf |>
+  mapview(zcol = "estimate")
+```
+
+### Your Turn {.your-turn}
+
+- Use the {rnaturalearth} or {rgeoboundaries} package to download data for all countries in South America
+- Use the {mapview} package to make a map in order to ensure the data was downloaded correctly
+- If you are in the US (or work with US data), try out downloading data using {tidycensus}
+
+#### Learn More
+
+https://wiki.openstreetmap.org/wiki/Disputed_territories
+
+https://www.andrewheiss.com/blog/2025/02/13/natural-earth-crimea/

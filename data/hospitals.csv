@@ -1,0 +1,175 @@
+facility,address,city,state,zip,county,hosp_type,total_beds
+Community Hospital Association,"26136 US Highway 59, PO Box 107",Fairfax,MO,64446,Atchison,Critical Access,18
+Scotland County Hospital,450 E. Sigler Avenue,Memphis,MO,63555,Scotland,Critical Access,25
+Mosaic Medical Center - Maryville,2016 South Main Street,Maryville,MO,64468,Nodaway,General Acute Care,81
+Putnam County Memorial Hospital,"1926 Oak Street, P.O. Box 389",Unionville,MO,63565,Putnam,Critical Access,15
+Mosaic Medical Center - Albany,705 N. College Street,Albany,MO,64402,Gentry,Critical Access,25
+Sullivan County Memorial Hospital,630 West 3rd Street,Milan,MO,63556,Sullivan,Critical Access,25
+Northeast Regional Medical Center,315 South Osteopathy,Kirksville,MO,63501,Adair,General Acute Care,93
+Macon County Samaritan Memorial Hospital,1205 North Missouri St,Macon,MO,63552,Macon,Critical Access,25
+Pershing (General John J) Memorial Hospital,130 East Lockling,Brookfield,MO,64628,Linn,Critical Access,25
+Hedrick Medical Center,2799 North Washington Street,Chillicothe,MO,64601,Livingston,Critical Access,25
+Hannibal Regional Hospital,"6000 Hospital Drive, PO Box 551",Hannibal,MO,63401,Marion,General Acute Care,99
+Northwest MO Psychiatric Rehab Ctr,3505 Frederick Avenue,St. Joseph,MO,64506,Buchanan,Psychiatric Hospital,0
+Mosaic Life Care at St. Joseph,5325 Faraon Street,St. Joseph,MO,64506,Buchanan,General Acute Care,348
+"Long-Term Acute Care Hospital, Mosaic Life Care at St. Joseph",5325 Faraon Street,St. Joseph,MO,64506,Buchanan,Other Hospital Type,41
+"Cameron Regional Medical Center, Inc.","1600 East Evergreen, P.O. Box 557",Cameron,MO,64429,Clinton,General Acute Care,58
+Carroll County Memorial Hospital,1502 North Jefferson,Carrollton,MO,64633,Carroll,Critical Access,25
+Pike County Memorial Hospital,2305 Georgia Street,Louisiana,MO,63353,Pike,Critical Access,25
+Moberly Regional Medical Center,1515 Union Avenue,Moberly,MO,65270,Randolph,General Acute Care,99
+Ray County Memorial Hospital,904 Wollard Boulevard,Richmond,MO,64085,Ray,Critical Access,25
+Saint Luke's North Hospital,5830 NW Barry Road,Kansas City,MO,64154,Platte,General Acute Care,97
+Kindred Hospital Northland,500 NW 68th Street,Kansas City,MO,64118,Clay,Long Term Care,50
+Saint Luke's North Hospital,601 South 169 Highway,Smithville,MO,64089,Clay,General Acute Care,64
+Excelsior Springs Hospital,1700 Rainbow Boulevard,Excelsior Springs,MO,64024,Clay,Critical Access,20
+Liberty Hospital,2525 Glenn Hendren Drive,Liberty,MO,64068,Clay,General Acute Care,204
+Signature Psychiatric Hospital Liberty,2525 Glenn Hendren Drive,Liberty,MO,64068,Clay,Psychiatric Hospital,40
+Fitzgibbon Hospital,"2305 South 65 Highway, P.O. Box 250",Marshall,MO,65340,Saline,General Acute Care,60
+Boone Hospital Center,1600 East Broadway,Columbia,MO,65201,Boone,General Acute Care,392
+Women's and Children's Hospital,404 Keene Street,Columbia,MO,65201,Boone,General Acute Care,0
+University Of Missouri Health Care,"One Hospital Drive, Room CE 121",Columbia,MO,65212,Boone,General Acute Care,0
+Harry S Truman Memorial Veterans Hospital,800 Hospital Drive,Columbia,MO,65201,Boone,VA,123
+"Landmark Hospital of Columbia, LLC",604 Old Hwy 63 N,Columbia,MO,65201,Boone,General Acute Care,39
+"Rusk Rehabilitation Hospital, an affiliation of Encompass Health and MU Health Care",315 Business Loop 70 West,Columbia,MO,65203,Boone,Rehabilitation Hospital,60
+CenterPointe Hospital of Columbia,1201 International Drive,Columbia,MO,65202,Boone,Psychiatric Hospital,80
+Mercy Hospital Lincoln,1000 East Cherry,Troy,MO,63379,Lincoln,Critical Access,25
+Lafayette Regional Health Center,1500 State Street,Lexington,MO,64067,Lafayette,Critical Access,25
+Center for Behavioral Medicine,1000 East 24th Street,Kansas City,MO,64108,Jackson,Psychiatric Hospital,0
+Crittenton Children's Center,10918 Elm Avenue,Kansas City,MO,64134,Jackson,Psychiatric Hospital,46
+Research Psychiatric Center - A Campus of Research Medical Center,2323 East 63rd Street,Kansas City,MO,64130,Jackson,Psychiatric Hospital,100
+St. Mary's Medical Center,201 NW R.D. Mize Road,Blue Springs,MO,64014,Jackson,General Acute Care,137
+University Health Lakewood Medical Center,7900 Lee's Summit Road,Kansas City,MO,64139,Jackson,General Acute Care,305
+Kansas City VA Medical Center,4801 Linwood Blvd.,Kansas City,MO,64128,Jackson,VA,142
+Research Medical Center - Brookside Campus,6601 Rockhill Road,Kansas City,MO,64131,Jackson,General Acute Care,3
+University Health Truman Medical Center 2,"1000 E 24th Street, 2 Center",Kansas City,MO,64108,Jackson,General Acute Care,50
+St. Joseph Medical Center,1000 Carondelet Drive,Kansas City,MO,64114,Jackson,General Acute Care,271
+Centerpoint Medical Center,19600 East 39th Street,Independence,MO,64057,Jackson,General Acute Care,285
+University Health Truman Medical Center,2301 Holmes Street,Kansas City,MO,64108,Jackson,General Acute Care,214
+Saint Luke's East Hospital,100 N. E. Saint Luke's Boulevard,Lee's Summit,MO,64086,Jackson,General Acute Care,240
+Lee's Summit Medical Center,2100 SE Blue Parkway,Lee's Summit,MO,64063,Jackson,General Acute Care,88
+Fulton State Hospital,600 East 5th Street,Fulton,MO,65251,Callaway,Psychiatric Hospital,0
+CenterPointe Hospital,4801 Weldon Spring Parkway,St. Charles,MO,63304,St. Charles,Psychiatric Hospital,104
+SSM Health St. Joseph Hospital - St. Charles,300 First Capitol Drive,St. Charles,MO,63301,St. Charles,General Acute Care,329
+SSM Health St. Joseph Hospital - Lake Saint Louis,100 Medical Plaza,Lake St. Louis,MO,63367,St. Charles,General Acute Care,215
+SSM Health St. Joseph Hospital - Wentzville,500 Medical Drive,Wentzville,MO,63385,St. Charles,General Acute Care,77
+Select Specialty Hospital-St. Louis,300 1st Capitol Drive,St. Charles,MO,63301,St. Charles,Long Term Care,33
+Progress West Hospital,2 Progress Point Pkwy,O'Fallon,MO,63368,St. Charles,General Acute Care,77
+SSM Health Rehabilitation Hospital - Lake St. Louis,"100 Medical Plaza, 5th Floor",Lake St. Louis,MO,63367,St. Charles,Rehabilitation Hospital,30
+"The Rehabilitation Institute of St. Louis, an affiliation of BJC Healthcare and Encompass Health","10 Hospital Drive, 3rd Floor",St. Peters,MO,63376,St. Charles,Rehabilitation Hospital,40
+Western Missouri Medical Center,403 Burkarth Road,Warrensburg,MO,64093,Johnson,General Acute Care,62
+Bothwell Regional Health Center,"601 East 14th Street, P.O. Box 1706",Sedalia,MO,65301,Pettis,General Acute Care,112
+Hawthorn Children's Psychiatric Hospital,1901 Pennsylvania Avenue,St. Louis,MO,63133,St. Louis,Psychiatric Hospital,0
+"VA St. Louis Health Care System, Jefferson Barracks Division",1 Jefferson Barracks Drive,St. Louis,MO,63125,St. Louis,VA,30
+St. Luke's Rehabilitation Hospital,14709 Olive Boulevard,Chesterfield,MO,63017,St. Louis,Rehabilitation Hospital,35
+SSM Health Rehabilitation Hospital - Bridgeton,12380 DePaul Drive,Bridgeton,MO,63044,St. Louis,Rehabilitation Hospital,60
+SSM Health St. Clare Hospital - Fenton,1015 Bowles Ave,Fenton,MO,63026,St. Louis,General Acute Care,180
+St. Luke's Hospital,232 South Woods Mill Road,Chesterfield,MO,63017,St. Louis,General Acute Care,493
+Barnes-Jewish West County Hospital,12634 Olive Boulevard,Creve Coeur,MO,63141,St. Louis,General Acute Care,100
+Christian Hospital Northeast-Northwest,1225 Graham Road,Florissant,MO,63031,St. Louis,General Acute Care,3
+Christian Hospital Northeast-Northwest,11133 Dunn Road,St. Louis,MO,63136,St. Louis,General Acute Care,482
+St. Luke's Des Peres Hospital,2345 Dougherty Ferry Road,St. Louis,MO,63122,St. Louis,General Acute Care,143
+Missouri Baptist Medical Center,3015 North Ballas Road,Town & Country,MO,63131,St. Louis,General Acute Care,489
+Mercy Rehabilitation Hospital St. Louis,14561 North Outer Forty,Chesterfield,MO,63017,St. Louis,Rehabilitation Hospital,90
+SSM Health Rehabilitation Hospital - Richmond Heights,1027 Bellevue Ave,St. Louis,MO,63117,St. Louis,Rehabilitation Hospital,35
+Mercy Hospital South,10010 Kennerly Road,St. Louis,MO,63128,St. Louis,General Acute Care,751
+SSM Health St. Mary's Hospital - St. Louis,6420 Clayton Road,Richmond Heights,MO,63117,St. Louis,General Acute Care,495
+Mercy Hospital St. Louis,615 South New Ballas Road,St. Louis,MO,63141,St. Louis,General Acute Care,859
+Kindred Hospital St. Louis South,"10018 Kennerly Road, 3rd Floor, Hyland Building B",St. Louis,MO,63128,St. Louis,General Acute Care,38
+Ranken Jordan Pediatric Bridge Hospital,11365 Dorsett Road,Maryland Heights,MO,63043,St. Louis,General Acute Care,60
+Select Specialty Hospital - Town and Country,3015 N. New Ballas Rd. 5th Floor,St. Louis,MO,63131,St. Louis,General Acute Care,38
+Cass Regional Medical Center,2800 E Rock Haven Road,Harrisonville,MO,64701,Cass,Critical Access,35
+Belton Regional Medical Center,17065 S. 71 Highway,Belton,MO,64012,Cass,General Acute Care,85
+"VA St. Louis Health Care Systems, John Cochran Division",915 North Grand,St. Louis,MO,63106,St. Louis City,VA,355
+St. Louis Forensic Treatment Center,5300 Arsenal Street,St. Louis,MO,63139,St. Louis City,Psychiatric Hospital,0
+Barnes-Jewish Hospital - Psychiatric Care,5355 Delmar Blvd,St. Louis,MO,63112,St. Louis City,Psychiatric Hospital,50
+Shriners Hospitals for Children,4400 Clayton Ave,St. Louis,MO,63110,St. Louis,Other Hospital Type,12
+Kindred Hospital - St. Louis,4930 Lindell Boulevard,St. Louis,MO,63108,St. Louis City,General Acute Care,60
+"The Rehabilitation Institute of St. Louis, an affiliation of BJC Healthcare and Encompass Health",4455  Duncan Avenue,St. Louis,MO,63110,St. Louis City,Rehabilitation Hospital,96
+South City Hospital,3933 South Broadway,St. Louis,MO,63118,St. Louis City,General Acute Care,178
+Barnes-Jewish Hospital - North,One Parkview Place,St. Louis,MO,63110,St. Louis City,General Acute Care,485
+Barnes-Jewish Hospital,One Barnes-Jewish Hospital Plaza,St. Louis,MO,63110,St. Louis City,General Acute Care,896
+Hermann Area District Hospital,"509 West 18th Street, P.O. Box 470",Hermann,MO,65041,Gasconade,Critical Access,24
+Capital Region Medical Center,"1125 Madison, P.O. Box 1128",Jefferson City,MO,65101,Cole,General Acute Care,114
+SSM Health St. Mary's Hospital - Jefferson City,2505 Mission Drive,Jefferson City,MO,65109,Cole,General Acute Care,154
+Golden Valley Memorial Hospital,1600 North Second Street,Clinton,MO,64735,Henry,General Acute Care,56
+"Royal Oaks Hospital, Inc.",307 North Main,Windsor,MO,65360,Henry,Psychiatric Hospital,54
+Mercy Hospital Jefferson,"1400 Highway 61 South, P.O. Box 350",Crystal City,MO,63019,Jefferson,General Acute Care,321
+Bates County Memorial Hospital,"615 West Nursery Street, P.O. Box 370",Butler,MO,64730,Bates,General Acute Care,60
+Washington County Memorial Hospital,300 Health Way,Potosi,MO,63664,Washington,Critical Access,25
+Missouri Baptist Sullivan Hospital,"751 Sappington Bridge Road, PO Box 190",Sullivan,MO,63080,Crawford,Critical Access,35
+Lake Regional Health System,54 Hospital Drive,Osage Beach,MO,65065,Camden,General Acute Care,121
+Ellett Memorial Hospital, 610 North Ohio Ave,Appleton City,MO,64724,St. Clair,Critical Access,12
+Phelps Health,1000 West Tenth Street,Rolla,MO,65401,Phelps,General Acute Care,242
+Ste Genevieve County Memorial Hospital,"800 Ste. Genevieve Drive, P.O.Box 468",Ste. Genevieve,MO,63670,Ste. Genevieve,Critical Access,25
+Heartland Behavioral Health Services,1500 West Ashland,Nevada,MO,64772,Vernon,Psychiatric Hospital,53
+Nevada Regional Medical Center,800 South Ash Street,Nevada,MO,64772,Vernon,General Acute Care,71
+Southeast Missouri Mental Health Center,1010 West Columbia Street,Farmington,MO,63640,St. Francois,Psychiatric Hospital,0
+Parkland Health Center-Bonne Terre,7245 Raider Road,Bonne Terre,MO,63628,St. Francois,Critical Access,3
+Parkland Health Center-Farmington,1101 West Liberty Street,Farmington,MO,63640,St. Francois,General Acute Care,130
+General Leonard Wood Army Community Hospital,4430 Missouri Avenue,Fort Leonard Wood,MO,65473,Pulaski,VA,65
+Perry County Memorial Hospital,434 North West Street,Perryville,MO,63775,Perry,Critical Access,25
+Cedar County Memorial Hospital,1401 South Park Street,El Dorado Springs,MO,64744,Cedar,Critical Access,25
+Mercy Hospital Lebanon,100 Hospital Drive,Lebanon,MO,65536,Laclede,General Acute Care,58
+Citizens Memorial Hospital,1500 North Oakland Ave,Bolivar,MO,65613,Polk,General Acute Care,86
+Salem Memorial District Hospital,"35629 Hwy 72, PO Box 774",Salem,MO,65560,Dent,Critical Access,55
+Iron County Medical Center,301 North Highway 21,Pilot Knob,MO,63663,Iron,Critical Access,15
+Madison Medical Center,611 West Main Street,Fredericktown,MO,63645,Madison,Critical Access,141
+Cox Barton County Hospital,29 NW 1st Lane,Lamar,MO,64759,Barton,Critical Access,25
+"Landmark Hospital of Cape Girardeau, LLC",3255 Independence Street,Cape Girardeau,MO,63703,Cape Girardeau,General Acute Care,30
+Saint Francis Medical Center,211 Saint Francis Drive,Cape Girardeau,MO,63703,Cape Girardeau,General Acute Care,306
+Texas County Memorial Hospital,1333 S. Sam Houston Boulevard,Houston,MO,65483,Texas,General Acute Care,66
+Mercy Hospital Springfield,1235 East Cherokee Street,Springfield,MO,65804,Greene,General Acute Care,866
+Cox Medical Centers North Hospital,1423 North Jefferson Ave,Springfield,MO,65802,Greene,General Acute Care,75
+Cox Medical Centers Meyer Orthopedic and Rehabilitation Hospital,3535 S. National Ave,Springfield,MO,65807,Greene,General Acute Care,86
+Lakeland Behavioral Health System,440 South Market,Springfield,MO,65806,Greene,Psychiatric Hospital,100
+Mercy Orthopedic Hospital Springfield,3050 E Riverbluff Boulevard,Ozark,MO,65721,Greene,General Acute Care,48
+Mercy Rehabilitation Hospital Springfield,5904 S Southwood Road,Springfield,MO,65804,Greene,Rehabilitation Hospital,60
+Select Specialty Hospital - Springfield,1630 East Primrose Street,Springfield,MO,65804,Greene,General Acute Care,60
+Cox Medical Centers South Hospital,3801 South National Avenue,Springfield,MO,65807,Greene,General Acute Care,706
+Perimeter Behavioral Hospital of Springfield,2828 North National Drive,Springfield,MO,65803,Greene,Psychiatric Hospital,32
+Mercy Hospital Carthage,3125 Dr Russell Smith Way,Carthage,MO,64836,Jasper,Critical Access,25
+Missouri Delta Medical Center,1008 North Main Street,Sikeston,MO,63801,Scott,General Acute Care,125
+Mercy Hospital Aurora,500 Porter Avenue,Aurora,MO,65605,Lawrence,Critical Access,53
+SoutheastHEALTH Center of Stoddard County,1200 North One Mile Road,Dexter,MO,63841,Stoddard,General Acute Care,48
+Freeman Neosho Hospital,113 West Hickory Street,Neosho,MO,64850,Newton,Critical Access,25
+Freeman Health System - East,932 East 34th Street,Joplin,MO,64804,Newton,General Acute Care,72
+Freeman Health System - West,1102 West 32nd Street,Joplin,MO,64804,Newton,General Acute Care,337
+Mercy St. Francis Hospital,"100 West Highway 60, PO Box 82",Mountain View,MO,65548,Howell,Critical Access,25
+Ozarks Healthcare,"1100 Kentucky Avenue, P.O. Box 1100",West Plains,MO,65775,Howell,General Acute Care,114
+John J Pershing VA Medical Center,1500 N Westwood Blvd.,Poplar Bluff,MO,63901,Butler,VA,53
+Poplar Bluff Regional Medical Center,2620 North Westwood Boulevard,Poplar Bluff,MO,63901,Butler,General Acute Care,170
+Poplar Bluff Regional Medical Center,3100 Oak Grove Road,Poplar Bluff,MO,63901,Butler,General Acute Care,240
+Mercy Hospital Cassville,94 Main Street,Cassville,MO,65625,Barry,Critical Access,18
+Cox Monett Hospital,1000 E U.S. Highway 60,Monett,MO,65708,Barry,Critical Access,25
+Cox Medical Center Branson,"525 Branson Landing Blvd, PO Box 650",Branson,MO,65616,Taney,General Acute Care,157
+Pemiscot County Memorial Hospital,946 East Reed,Hayti,MO,63851,Pemiscot,General Acute Care,167
+Harrison County Community Hospital,2600 Miller Street,Bethany,MO,64424,Harrison,Critical Access,19
+Wright Memorial Hospital,191 Iowa Blvd,Trenton,MO,64683,Grundy,Critical Access,22
+North Kansas City Hospital,2800 Clay Edwards Drive,North Kansas City,MO,64116,Clay,General Acute Care,451
+Signature Psychiatric Hospital,2900 Clay Edwards Drive,North Kansas City,MO,64116,Clay,Psychiatric Hospital,52
+Research Medical Center,2316 East Meyer Boulevard,Kansas City,MO,64132,Jackson,General Acute Care,487
+Children's Mercy Hospital,2401 Gillham Road,Kansas City,MO,64108,Jackson,General Acute Care,338
+Saint Luke's Hospital of Kansas City,4401 Wornall Road,Kansas City,MO,64111,Jackson,General Acute Care,511
+Barnes-Jewish St. Peters Hospital,10 Hospital Drive,St. Peters,MO,63376,St. Charles,General Acute Care,110
+SSM Health DePaul Hospital - St. Louis,12303 DePaul Drive,Bridgeton,MO,63044,St. Louis,General Acute Care,523
+SSM Health Cardinal Glennon Children's Hospital,1465 South Grand Boulevard,St. Louis,MO,63104,St. Louis City,Other Hospital Type,195
+St. Louis Children's Hospital,One Children's Place,St. Louis,MO,63110,St. Louis City,Other Hospital Type,445
+SSM Health Saint Louis University Hospital,3635 Vista Avenue,St. Louis,MO,63111,St. Louis City,General Acute Care,106
+SSM Health Saint Louis University Hospital - South Campus,1755 South Grand Boulevard,St. Louis,MO,63104,St. Louis City,General Acute Care,6
+Mercy Hospital Washington,901 East 5th Street,Washington,MO,63090,Franklin,General Acute Care,140
+Osage Beach Center for Cognitive Disorders,840 Passover Road,Osage Beach,MO,65065,Camden,Psychiatric Hospital,16
+SoutheastHEALTH,1701 Lacey Street,Cape Girardeau,MO,63701,Cape Girardeau,General Acute Care,245
+Mercy Hospital Joplin,100 Mercy Way,Joplin,MO,64804,Newton,General Acute Care,242
+"Landmark Hospital of Joplin, LLC",2040 W 32nd Street,Joplin,MO,64804,Newton,General Acute Care,30
+SSM Health Saint Louis University Hospital,1201 South Grand Blvd,St. Louis,MO,63104,St. Louis City,General Acute Care,294
+Hawthorn Children's Psychiatric Hospital,1901 Pennsylvania Avenue,St. Louis,MO,63133,St. Louis,Psychiatric Hospital,0
+Southeast Behavioral Hospital,639 Silver Springs Road,Cape Girardeau,MO,63703,Cape Girardeau,Psychiatric Hospital,102
+St. Louis Forensic Treatment Center-North,5351 Delmar Blvd.,St. Louis,MO,63112,St. Louis City,Psychiatric Hospital,0
+Crittenton Children's Center,10918 Elm Avenue,Kansas City,MO, 64134,Jackson,Psychiatric Hospital,0
+Perimeter Behavioral of Missouri,1000 Hospital Rd,Waynesville,MO,65583,Pulaski,Psychiatric Hospital,0
+KVC Missouri Springfield,1212 W Lombard,Springfield,MO,65806,Greene,Psychiatric Hospital,0
+Heartland Behavioral Health (Great Plains Hospital),1500 West Ashland,Nevada,MO,64772,Vernon,Psychiatric Hospital,0
+KVC Missouri Columbia,4304 S. Bearfield Road,Columbia,MO,65201,Boone,Psychiatric Hospital,0
+Lakeland Behavioral Health System,2323 W Grand,Springfiled,MO,65806,Greene,Psychiatric Hospital,0
+Maryland Heights Center for Behavioral,11100 Ayrshire Drive,"Maryland Heights,",MO,63043,St. Louis,Psychiatric Hospital,16
+Mercy Rehabiltation Hospital South,10114 Kennerly Road,St. Louis,MO,63128,St. Louis,Rehabilitation Hospital,50

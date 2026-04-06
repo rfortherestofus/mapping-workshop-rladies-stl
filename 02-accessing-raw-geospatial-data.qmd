@@ -1,0 +1,104 @@
+---
+title: Accessing Raw Geospatial Data
+---
+
+### {sf} Package
+
+![](assets/sf.png)
+
+### Geospatial Data Formats: ESRI Shapefile {.inverse}
+
+### ESRI Shapefile
+
+Consists of multiple files: 
+
+1. `.shp`: The main file that contains the geometry data (shapes) of the features.
+1. `.shx`: The shape index file, which stores the positional index of the feature geometry to improve access speed.
+1. `.dbf`: The attribute format file, which stores attribute data in a tabular format. This file uses the dBase format.
+
+### ESRI Shapefile
+
+In addition to these three mandatory files, there are several optional files that can accompany a shapefile:
+
+- `.prj`: The projection file, which contains coordinate system and projection information.
+- `.sbn` and `.sbx`: Spatial index files that improve the speed of spatial queries.
+- `.fbn` and `.fbx`: Files used for spatial indexing of features that have been deleted.
+
+### ESRI Shapefile
+
+- `.ain` and `.aih`: Attribute index files that improve the speed of attribute queries.
+- `.ixs` and `.mxs`: Geocoding index for read-write and read-only datasets, respectively.
+- `.cpg`: The code page file, which specifies the character encoding used in the .dbf file.
+
+### ESRI Shapefile
+
+- [Import city council data from PortlandMaps Open Data](https://gis-pdx.opendata.arcgis.com/datasets/2aec1ba28a6d47b790d59dd831f9bc76_1413/explore?location=45.485228%2C-122.289380%2C9.18)
+
+- Import data with `read_sf()`
+
+---
+
+```{r}
+library(sf)
+
+read_sf("data/Portland_City_Council_Districts.shp")
+```
+
+---
+
+[![](assets/shapefile-airplane-meme.jpg)](https://www.reddit.com/r/gis/comments/sbp8r9/please_find_the_shapefile_attached/)
+
+
+### Geospatial Data Formats: GeoJSON {.inverse}
+
+### Geospatial Data Formats: GeoJSON
+
+- One file with everything you need embedded within it
+
+- [Import GeoJSON city council data from PortlandMaps Open Data](https://gis-pdx.opendata.arcgis.com/datasets/2aec1ba28a6d47b790d59dd831f9bc76_1413/explore?location=45.485228%2C-122.289380%2C9.18)
+
+---
+
+```{r}
+read_sf("data/portland_city_council_districts.geojson")
+```
+
+### Geospatial Data Formats: Others {.inverse}
+
+---
+
+[![](assets/geospatial-data-formats.png)](https://r.geocompx.org/read-write)
+
+### Geospatial Data Formats: Others
+
+- Almost all file formats can be imported with `read_sf()`
+
+
+### Your Turn {.your-turn}
+
+```{r}
+#| echo: false
+# library(fs)
+# library(zip)
+
+# download.file(
+#   url = "https://hub.arcgis.com/api/v3/datasets/418ceb86c89b45a39ac0e27bc2722393_233/downloads/data?format=shp&spatialRefId=3857&where=1%3D1",
+#   destfile = "data/portland_sextants.zip"
+# )
+```
+
+- Download data in [ESRI Shapefile](https://github.com/rfortherestofus/mapping-with-r-v2/raw/refs/heads/main/data/portland_sextants.zip) or [GeoJSON format](https://github.com/rfortherestofus/mapping-with-r-v2/raw/refs/heads/main/data/portland_sextants.geojson) on Portland sextants
+
+- Import the data in R using the `read_sf()` function from the `sf` package
+
+- Examine your data, making sure you can identify its geometry type, dimensions, bounding box, coordinate reference system and `geometry` column
+
+::: {.notes}
+https://gis-pdx.opendata.arcgis.com/datasets/PDX::portland-administrative-sextants/explore?location=45.544781%2C-122.667200%2C11.81
+:::
+
+### Learn More
+
+https://r-spatial.github.io/sf/articles/sf2.html
+
+https://r.geocompx.org/read-write.html

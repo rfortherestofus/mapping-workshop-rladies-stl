@@ -1,0 +1,106 @@
+---
+title: Mapping with ggplot
+---
+
+```{r}
+#| echo: false
+options(tigris_use_cache = TRUE)
+```
+
+### Get Data
+
+```{r}
+library(tidyverse)
+library(tidycensus)
+library(janitor)
+library(sf)
+```
+
+```{r}
+#| code-line-numbers: "3"
+load_variables(
+  year = 2023,
+  dataset = "acs5/subject",
+  cache = TRUE
+) |>
+  filter(str_detect(name, "S1601"))
+```
+
+---
+
+```{r}
+#| code-line-numbers: "4,5"
+get_acs(
+  geography = "county",
+  variable = "S1601_C01_003",
+  summary_var = "S1601_C01_001"
+)
+```
+
+---
+
+```{r}
+#| output: false
+speak_language_other_than_english <-
+  get_acs(
+    geography = "county",
+    variable = "S1601_C01_003",
+    summary_var = "S1601_C01_001",
+    geometry = TRUE
+  ) |>
+  clean_names() |>
+  mutate(pct = estimate / summary_est) |>
+  select(name, pct)
+```
+
+```{r}
+speak_language_other_than_english
+```
+
+### Make a Map
+
+```{r}
+speak_language_other_than_english |>
+  ggplot() +
+  geom_sf()
+```
+
+### Shift Geometry
+
+```{r}
+#| code-line-numbers: "4"
+library(tigris)
+
+speak_language_other_than_english |>
+  shift_geometry() |>
+  ggplot() +
+  geom_sf()
+```
+
+### Aesthetic Properties
+
+#### Fill
+
+```{r}
+#| code-line-numbers: "4"
+speak_language_other_than_english |>
+  shift_geometry() |>
+  ggplot() +
+  geom_sf(aes(fill = pct))
+```
+
+## Your Turn {.your-turn}
+
+- Import a [dataset I've created on the number of refugees from each country in the world](https://raw.githubusercontent.com/rfortherestofus/mapping-with-r-v2/refs/heads/main/data/refugees.geojson)
+
+- Use ggplot to make a map of this data, with countries sending higher numbers of refugees in a different color than countries with lower numbers of refugees
+
+::: {.notes}
+
+```{r}
+#| eval: false
+read_sf("https://raw.githubusercontent.com/rfortherestofus/mapping-with-r-v2/refs/heads/main/data/refugees.geojson") |>
+  ggplot() +
+  geom_sf(aes(fill = number_of_refugees))
+```
+:::
