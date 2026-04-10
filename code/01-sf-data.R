@@ -112,4 +112,3 @@ wyoming_coordinates |>
     )
   ) +
   geom_point()
-

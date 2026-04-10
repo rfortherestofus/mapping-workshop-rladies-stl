@@ -46,4 +46,3 @@ speak_language_other_than_english |>
   shift_geometry() |>
   ggplot() +
   geom_sf(aes(fill = pct))
-

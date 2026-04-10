@@ -1,11 +1,13 @@
-library(tidycensus)
+# library(tidycensus)
 
-options(tigris_use_cache = TRUE)
+# options(tigris_use_cache = TRUE)
 
 library(rnaturalearth)
 
 all_countries <-
-  ne_countries(scale = "small")
+  ne_countries(scale = "medium")
+
+all_countries
 
 library(mapview)
 
@@ -45,7 +47,7 @@ geoboundaries(
   mapview()
 
 geoboundaries(
-  country = "Ukraine",
+  country = "United States",
   adm_lvl = 2
 ) |>
   mapview()
@@ -69,6 +71,8 @@ oregon_counties |>
   mapview()
 
 library(tidycensus)
+
+# tidycensus::census_api_key("oiequrlkjlkjqdflkj", install = TRUE)
 
 acs_variables <-
   load_variables(
@@ -99,3 +103,23 @@ median_household_income_sf
 median_household_income_sf |>
   mapview(zcol = "estimate")
 
+south_america <-
+  ne_countries(continent = "South America", scale = "large")
+
+french_guiana <-
+  ne_countries(country = "France")
+
+ne_countries(country = "France") |>
+  mapview()
+
+south_america |>
+  mapview()
+
+geoboundaries(adm_lvl = 0) |>
+  mapview()
+
+illinois_places <-
+  places(state = "IL")
+
+illinois_places |>
+  mapview()

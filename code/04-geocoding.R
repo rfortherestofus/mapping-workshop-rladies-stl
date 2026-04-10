@@ -1,5 +1,4 @@
 library(sf)
-
 library(tidyverse)
 
 famous_places <-
@@ -12,10 +11,12 @@ famous_places <-
     "350 5th Ave, New York, NY 10118, USA"
   )
 
+famous_places
+
 library(tidygeocoder)
 
 famous_places |>
-  geocode(address)
+  geocode(address = address)
 
 famous_places_sf <-
   famous_places |>
@@ -54,7 +55,7 @@ us_and_uk_head_residences |>
 us_and_uk_head_residences_v2 <-
   tribble(
     ~building                  ,
-    ~address                   ,
+    ~street                    ,
     ~city                      ,
     ~state                     ,
     ~postal_code               ,
@@ -77,7 +78,7 @@ us_and_uk_head_residences_v2
 
 us_and_uk_head_residences_v2 |>
   geocode(
-    street = address,
+    street = street,
     city = city,
     state = state,
     postalcode = postal_code,
@@ -86,11 +87,15 @@ us_and_uk_head_residences_v2 |>
 
 us_and_uk_head_residences_v2 |>
   geocode(
-    street = address,
+    street = street,
     city = city,
     state = state,
     postalcode = postal_code,
     country = country,
     method = "iq"
-  )
-
+  ) |>
+  st_as_sf(
+    coords = c("long", "lat"),
+    crs = 4326
+  ) |>
+  mapview::mapview()
